@@ -4,6 +4,7 @@ def roll_call_dwarves(names)
   dwarfs<<  
   puts "#{index} #{name}" 
   end
+  dwarfs
 end
 
 def summon_captain_planet# code an argument here
