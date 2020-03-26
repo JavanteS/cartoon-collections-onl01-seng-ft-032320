@@ -1,8 +1,8 @@
 def roll_call_dwarves(names)
   dwarfs=[]
-  names.each_with_index(1) do |name, index| 
+  names.each_with_index do |name, index| 
   dwarfs<<  
-  "#{index} #{name}" 
+  "#{index + 1} #{name}" 
   end
   dwarfs
 end
